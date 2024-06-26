@@ -3,9 +3,8 @@ class Java{
         number(1);
     }
     public static void number(int num){
-        if(num<=100){
-            System.out.println(num);
-            number(num+1);
-        }
+        if(num>100) return;
+        System.out.println(num);
+        number(num+1);
     }
 }
