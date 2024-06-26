@@ -7,11 +7,14 @@ public class new_feature {
 }
 class Action{
     private int id;
-    private String name;
+    protected String name;
     public void do_action(){};
 }
 
 class SpecificAction1 extends Action{
+    SpecificAction1(){
+        
+    }
 
     @Override
     public void do_action() {
