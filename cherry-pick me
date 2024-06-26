@@ -1,8 +1,15 @@
 This is a file.
 <<<<<<< HEAD
+<<<<<<< HEAD
 First cherry pick should show this.
 =======
 First cherry pick should show this.
 Second cherry pick should show this.
 Third cherry pick try with tag!
 >>>>>>> b527356 (try vscode tag)
+=======
+First cherry pick should show this.
+Second cherry pick should show this.
+Third cherry pick try with tag!
+random modifying
+>>>>>>> cherry
